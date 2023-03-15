@@ -1,38 +1,30 @@
 .App {
-  text-align: center;
+    width: 70vw;
+    margin: auto;
+    font-family: 'Dosis', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+    margin: 20px;
+   text-align: center;
+   color: lightcoral;
+   font-size: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App ul {
+    background-color: lightblue;
+    list-style: none;
+    border: 1px solid gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App li {
+    margin: 5px;
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App li div {
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
